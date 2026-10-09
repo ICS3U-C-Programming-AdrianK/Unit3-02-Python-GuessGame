@@ -8,14 +8,14 @@ import constants
 
 def main():
     # get the user number between 0 and 9
-    user_number = int(input("enter your number between 0 and 9:"))
+    user_number = int(input("enter your number between 0 and 9 :"))
     print("")
 
     # check if number is the number is right
     if user_number == constants.CR:
-        print("you are right")
+        print("you are right!!")
     if user_number != constants.CR:
-        print("you are wrong")
+        print("you are wrong!!")
 
     # display correct number if wrong
     if user_number != constants.CR:
